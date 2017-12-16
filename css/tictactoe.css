@@ -14,3 +14,7 @@ td:after {
     display: block;
     margin-top: 100%;
 }
+
+h1 {
+    margin-left: 10%;
+}
