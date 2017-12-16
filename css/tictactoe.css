@@ -1,1 +1,21 @@
+table {
 
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    width: 30%;
+}
+
+tr {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+td {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    height: 100%;
+}
