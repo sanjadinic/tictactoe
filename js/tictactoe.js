@@ -18,7 +18,8 @@
                   if (cells[$(this).attr("id")]) {
                       return;
                   }
-                  if (moves.length % 2) {
+
+                  if (moves.length % 2 == 0) {
                       $("#" + $(this).attr("id")).attr("class", "x");
                       moves.push("x");
                       cells[$(this).attr("id")] = "x";
