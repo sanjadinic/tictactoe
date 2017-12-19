@@ -18,3 +18,11 @@ td:after {
 h1 {
     margin-left: 10%;
 }
+
+.x::before {
+    content: "X";
+}
+
+.o::before {
+    content: "O";
+}
