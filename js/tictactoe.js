@@ -1,13 +1,14 @@
   $(document).ready(function() {
       var cells;
-      var moves = [];
+
 
       function refresh() {
           $("#playground").empty();
           var table = $("<table>")
+          var moves = [];
           var tr;
           $.each(cells, function(i) {
-              if (!(i % 3) || !tr) {
+              if (!(i % 3)) {
                   tr = $("<tr>");
               };
               var td = $("<td>");
